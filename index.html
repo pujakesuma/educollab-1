@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Closed Pooling</title>
+  </head>
+  <body>
+    <!-- polling -->
+    <section class="align-items-center d-flex closed-polling">
+      <div class="container">
+        <div class="row justify-content-center align-items-center d-flex">
+          <div class="col-10 col-sm-12 border border-secondary">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h4 class="text-uppercase">polling</h4>
+              </div>
+              <div class="col-12">
+                <p>Apa yang paling penting dari bahasa kita kali ini ?</p>
+              </div>
+
+              <!-- multiple choice -->
+              <div class="col-12 text-capitalize">
+                <div class="form-check">
+                  <input
+                    class="form-check-input text-warning"
+                    type="radio"
+                    name="answerA"
+                    id="answerA"
+                    value="answerA"
+                    checked
+                  />
+                  <label class="form-check-label" for="answerA">
+                    mendifinisikan roadmap
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerB"
+                    id="answerB"
+                    value="answerB"
+                  />
+                  <label class="form-check-label" for="answerB">
+                    program training
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="answerC"
+                    id="anwerC"
+                    value="answerC"
+                  />
+                  <label class="form-check-label" for="answerC">
+                    pendelegasian keputusan
+                  </label>
+                </div>
+              </div>
+
+              <!-- button submit -->
+              <div class="col-12 text-center">
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+              <div class="col-12 text-center">
+                <p class="text-capitalize">batas waktu pengisian</p>
+              </div>
+              <div class="col-12 text-center">
+                <p id="countdown"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- countdown -->
+    <script src="./script/countdown.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
